@@ -47,7 +47,7 @@ and open the template in the editor.
                 }
                 console.log(data);
 
-                fetch(`http://localhost:8084/CargoCodigo/codigo.jsp?codigo=${data.codigo}`, {
+                fetch(`codigo.jsp?codigo=${data.codigo}`, {
                     headers: {
                         'Accept': 'application/json',
                         'Content-Type': 'application/json'
